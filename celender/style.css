@@ -1,0 +1,40 @@
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(214, 206, 40);
+}
+.celender{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    gap: 20px;
+    grid-template-rows: repeat(7,80px);
+    
+}
+.data , .day{
+    font-size: 35px;
+    background-color: bisque;
+    /* text-align: center;
+    padding-top: 20px; 
+    অথবা নিচের ডিসপ্লে গ্রিড করেও করা যায়।*/
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /* এখানেও হাইট উইডথ সেট করা যায় */
+    
+}
+.day{
+    background-color: aqua;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.previous{
+    background-color: grey;
+    color: red;
+}
+.next{
+    background-color: cadetblue;
+    color: blue;
+}
